@@ -16,5 +16,5 @@ public class Genero {
 	private int id;
 	
 	@Column(name = "nombre")
-	private String genero;
+	private String nombre;
 }

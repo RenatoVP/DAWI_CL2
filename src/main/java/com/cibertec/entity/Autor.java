@@ -16,8 +16,8 @@ public class Autor {
 	private int id;
 	
 	@Column(name = "nombre")
-	private String autor;
+	private String nombre;
 	
 	@Column(name = "apellidos")
-	private String ape_autor;
+	private String apellidos;
 }

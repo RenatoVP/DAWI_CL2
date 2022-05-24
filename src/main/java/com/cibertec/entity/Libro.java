@@ -22,14 +22,14 @@ public class Libro {
 	private String idioma;
 	private String fecpublicacion;
 	@Column(name = "cod_autor")
-	private int id_autor;
+	private int idautor;
 	
 	@ManyToOne
 	@JoinColumn(name = "cod_autor", insertable = false, updatable = false)
 	private Autor autor;
 	
 	@Column(name = "cod_genero")
-	private int id_genero;
+	private int idgenero;
 	
 	@ManyToOne
 	@JoinColumn(name = "cod_genero", insertable = false, updatable = false)
